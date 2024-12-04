@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: auto;
+    min-height: 100vh;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+   
+}
+header{
+    width: fit-content;
+    position: fixed;
+    height: auto;
+    padding: 20px;
+    z-index: 1;
+}
+
+header span{
+    color: #0050a4;
+}
+
+header a{
+    text-decoration: none;
+}
+
+h1{
+    padding: 0 10px 0 10px;
+    background-color: #ffffff ;
+    color: #ef4135;
+    font-size: 32px;
+    font-weight: 400;
+    
+}
+
+nav ul{
+    list-style: none;
+    text-decoration: underline ;
+
+}
+nav a {
+    
+    font-size: 1em;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+
+}
+section a{
+    text-decoration: none;
+}
+
+.contenedor{
+    display: flex;
+    background-color: #ef4135;
+    height: 100vh;
+    justify-content: space-evenly;
+    }
+
+
+.peliculas {
+    width: 100%;
+    padding: 40px;
+    font-size: 128px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.peliculas:nth-child(1) {
+    background: url(../img/azul.jpg) no-repeat center / cover;
+    color: #0050a4;
+   
+
+}
+.peliculas:nth-child(2) {
+    background: url(../img/blanco.jpg) no-repeat center / cover;
+    color: #ffffff;
+    
+}
+.peliculas:nth-child(3) {
+    background: url(../img/rojo.jpg) no-repeat center / cover;
+    color: #ef4135;
+    
+}
+
+
+
+
+
+

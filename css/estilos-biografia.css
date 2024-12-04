@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: auto;
+    min-height: 100vh;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-image: linear-gradient(to bottom, rgb(232, 229, 229), rgb(173, 173, 173) 50%);
+}
+header{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+header a{
+    text-decoration: none;
+}
+
+span{
+    color: #0050a4;
+}
+h1{
+    padding: 0 10px 0 10px;
+    background-color: #ffffff ;
+    color: #ef4135;
+    font-size: 32px;
+    font-weight: 400;
+    
+}
+h2{
+    color: #ffffff;
+    font-size:200px;
+    font-weight: 500;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    top: 210px;
+    left: 660PX;
+    Z-index: -1;
+}
+
+
+nav{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+
+
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+ 
+
+
+}
+nav a {
+
+    font-size: 1em;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+
+}
+nav li{
+    
+    margin-right:61px ;
+
+
+}
+
+.biografia{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.biografia p{
+    Font-family: "Oswald", sans-serif;
+    font-size:16px;
+    line-height: normal;
+    text-align:start;
+    letter-spacing:normal;
+    margin-top: 10px;
+}
+.biografia img{
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+
+
+
